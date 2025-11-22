@@ -18,7 +18,7 @@ def run_deepchecks(path='data/data.csv', out='reports/deepchecks_report.html'):
     results = suite.run(dataset)
 
     os.makedirs('reports', exist_ok=True)
-    results.save_html(out)
+    results.save_as_html(out)
     print('Deepchecks report saved to', out)
 
 if __name__ == '__main__':
