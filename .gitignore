@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.mlruns/
+mlruns/
+.env
+.DS_Store
+*.sqlite3
+data/*.csv
+reports/
+
+# Docker
+docker-compose.override.yml
+
+# VSCode
+.vscode/

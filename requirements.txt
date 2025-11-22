@@ -1,0 +1,12 @@
+mlflow
+scikit-learn
+pandas
+numpy
+seaborn
+matplotlib
+deepchecks
+evidently
+fastapi
+uvicorn[standard]
+joblib
+python-dotenv

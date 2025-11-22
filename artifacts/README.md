@@ -1,0 +1,1 @@
+Артефакты модельных запусков. Model joblib сохраняется в artifacts/model.joblib

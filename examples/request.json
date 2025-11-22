@@ -1,0 +1,9 @@
+{
+  "features": {
+    "feature_0": 0.1,
+    "feature_1": -0.2,
+    "feature_2": 1.0,
+    "feature_3": 0.5,
+    "feature_4": -0.7
+  }
+}
