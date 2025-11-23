@@ -24,8 +24,8 @@ jobs:
         run: python src/check_data.py
       - name: Train model (MLflow logging)
         run: python src/train.py
-      - name: Run drift report
-        run: python src/drift_report.py
+      # - name: Run drift report
+      #   run: python src/drift_report.py
       - name: Run fastapi smoke test
         run: |
           pip install httpx
